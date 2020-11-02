@@ -1,0 +1,33 @@
+.error-message{
+	font-size: 5rem;
+	font-family: 'Special Elite', cursive;
+	color: rgba(208,208,208,1.00);
+}
+
+.sub-error-message{
+	font-size: 3.5rem;
+	font-family: 'Special Elite', cursive;
+	color: rgba(208,208,208,1.00);
+}
+
+.error-title{
+    font-family: 'Special Elite', cursive;
+	font-size: 3rem;
+    color: rgba(208,208,208,1.00);
+	overflow: hidden;
+    position: absolute;
+    top: 6rem;
+}
+
+@media screen and (max-width: 800px) {  .error-title{font-size: 2.2rem;}  }
+
+.error-pageCoverImage{
+    background-image: url("/assets/pageImage/errorPageCover.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:center center;
+    background-attachment: fixed;
+    height: 12rem;
+    filter: blur(10px);
+    z-index: -1;
+}

@@ -1,0 +1,335 @@
+/*Fonts Import*/
+/*Google*/
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Julius+Sans+One&family=Limelight&family=Megrim&family=Montserrat+Subrayada:wght@700&family=Noto+Sans+SC&family=Poiret+One&family=Special+Elite&family=Almendra+SC&display=swap');
+/*
+font-family: 'Abel', sans-serif;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Limelight', cursive;
+font-family: 'Megrim', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Montserrat Subrayada', sans-serif;
+font-family: 'Special Elite', cursive;
+font-family: 'Noto Sans SC', sans-serif;
+font-family: 'Almendra SC', serif;
+*/
+@font-face {
+    font-family: 'Almendra SC';
+    font-style: normal;
+    font-weight: normal;
+    src: url('//lib.baomitu.com/fonts/almendra-sc/almendra-sc-regular.eot'); /* IE9 Compat Modes */
+    src: local('/assets/font/AlmendraSC-Regular.ttf'),
+    url('//lib.baomitu.com/fonts/almendra-sc/almendra-sc-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('//lib.baomitu.com/fonts/almendra-sc/almendra-sc-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('//lib.baomitu.com/fonts/almendra-sc/almendra-sc-regular.woff') format('woff'), /* Modern Browsers */
+    url('//lib.baomitu.com/fonts/almendra-sc/almendra-sc-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('//lib.baomitu.com/fonts/almendra-sc/almendra-sc-regular.svg#AlmendraSC') format('svg'); /* Legacy iOS */
+}
+@font-face {
+	font-family: 'Special Elite';
+	font-style: normal;
+	font-weight: normal;
+	src: url('//lib.baomitu.com/fonts/special-elite/special-elite-regular.eot'); /* IE9 Compat Modes */
+	src: local('/assets/font/SpecialElite-Regular.ttf'),
+	url('//lib.baomitu.com/fonts/special-elite/special-elite-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('//lib.baomitu.com/fonts/special-elite/special-elite-regular.woff2') format('woff2'), /* Super Modern Browsers */
+	url('//lib.baomitu.com/fonts/special-elite/special-elite-regular.woff') format('woff'), /* Modern Browsers */
+	url('//lib.baomitu.com/fonts/special-elite/special-elite-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('//lib.baomitu.com/fonts/special-elite/special-elite-regular.svg#SpecialElite') format('svg'); /* Legacy iOS */
+}
+@font-face {
+	font-family: 'Poiret One';
+	font-style: normal;
+	font-weight: normal;
+	src: url('//lib.baomitu.com/fonts/poiret-one/poiret-one-regular.eot'); /* IE9 Compat Modes */
+	src: local('/assets/font/PoiretOne-Regular.ttf'),
+	url('//lib.baomitu.com/fonts/poiret-one/poiret-one-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('//lib.baomitu.com/fonts/poiret-one/poiret-one-regular.woff2') format('woff2'), /* Super Modern Browsers */
+	url('//lib.baomitu.com/fonts/poiret-one/poiret-one-regular.woff') format('woff'), /* Modern Browsers */
+	url('//lib.baomitu.com/fonts/poiret-one/poiret-one-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('//lib.baomitu.com/fonts/poiret-one/poiret-one-regular.svg#PoiretOne') format('svg'); /* Legacy iOS */
+}
+@font-face {
+	font-family: 'Abel';
+	font-style: normal;
+	font-weight: normal;
+	src: url('//lib.baomitu.com/fonts/abel/abel-regular.eot'); /* IE9 Compat Modes */
+	src: local('/assets/font/Abel-Regular.ttf'),
+	url('//lib.baomitu.com/fonts/abel/abel-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('//lib.baomitu.com/fonts/abel/abel-regular.woff2') format('woff2'), /* Super Modern Browsers */
+	url('//lib.baomitu.com/fonts/abel/abel-regular.woff') format('woff'), /* Modern Browsers */
+	url('//lib.baomitu.com/fonts/abel/abel-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('//lib.baomitu.com/fonts/abel/abel-regular.svg#Abel') format('svg'); /* Legacy iOS */
+}
+@font-face {
+	font-family: 'Julius Sans One';
+	font-style: normal;
+	font-weight: normal;
+	src: url('//lib.baomitu.com/fonts/julius-sans-one/julius-sans-one-regular.eot'); /* IE9 Compat Modes */
+	src: local('/assets/font/JuliusSansOne-Regular.ttf'),
+	url('//lib.baomitu.com/fonts/julius-sans-one/julius-sans-one-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('//lib.baomitu.com/fonts/julius-sans-one/julius-sans-one-regular.woff2') format('woff2'), /* Super Modern Browsers */
+	url('//lib.baomitu.com/fonts/julius-sans-one/julius-sans-one-regular.woff') format('woff'), /* Modern Browsers */
+	url('//lib.baomitu.com/fonts/julius-sans-one/julius-sans-one-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('//lib.baomitu.com/fonts/julius-sans-one/julius-sans-one-regular.svg#JuliusSans One') format('svg'); /* Legacy iOS */
+}
+@font-face {
+	font-family: 'Montserrat Subrayada';
+	font-style: normal;
+	font-weight: normal;
+	src: url('//lib.baomitu.com/fonts/montserrat-subrayada/montserrat-subrayada-regular.eot'); /* IE9 Compat Modes */
+	src: local('/assets/font/MontserratSubrayada-Regular.ttf'),local('/assets/font/MontserratSubrayada-Bold.ttf'),
+	url('//lib.baomitu.com/fonts/montserrat-subrayada/montserrat-subrayada-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('//lib.baomitu.com/fonts/montserrat-subrayada/montserrat-subrayada-regular.woff2') format('woff2'), /* Super Modern Browsers */
+	url('//lib.baomitu.com/fonts/montserrat-subrayada/montserrat-subrayada-regular.woff') format('woff'), /* Modern Browsers */
+	url('//lib.baomitu.com/fonts/montserrat-subrayada/montserrat-subrayada-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('//lib.baomitu.com/fonts/montserrat-subrayada/montserrat-subrayada-regular.svg#MontserratSubrayada') format('svg'); /* Legacy iOS */
+}
+@font-face {
+	font-family: 'Limelight';
+	font-style: normal;
+	font-weight: normal;
+	src: url('//lib.baomitu.com/fonts/limelight/limelight-regular.eot'); /* IE9 Compat Modes */
+	src: local('/assets/font/Limelight-Regular.ttf'),
+	url('//lib.baomitu.com/fonts/limelight/limelight-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('//lib.baomitu.com/fonts/limelight/limelight-regular.woff2') format('woff2'), /* Super Modern Browsers */
+	url('//lib.baomitu.com/fonts/limelight/limelight-regular.woff') format('woff'), /* Modern Browsers */
+	url('//lib.baomitu.com/fonts/limelight/limelight-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('//lib.baomitu.com/fonts/limelight/limelight-regular.svg#Limelight') format('svg'); /* Legacy iOS */
+}
+@font-face {
+	font-family: 'Megrim';
+	font-style: normal;
+	font-weight: normal;
+	src: url('//lib.baomitu.com/fonts/megrim/megrim-regular.eot'); /* IE9 Compat Modes */
+	src: local('/assets/font/Megrim-Regular.ttf'),
+	url('//lib.baomitu.com/fonts/megrim/megrim-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('//lib.baomitu.com/fonts/megrim/megrim-regular.woff2') format('woff2'), /* Super Modern Browsers */
+	url('//lib.baomitu.com/fonts/megrim/megrim-regular.woff') format('woff'), /* Modern Browsers */
+	url('//lib.baomitu.com/fonts/megrim/megrim-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('//lib.baomitu.com/fonts/megrim/megrim-regular.svg#Megrim') format('svg'); /* Legacy iOS */
+}
+@font-face {
+	font-family: 'Noto Sans SC';
+	font-style: normal;
+	font-weight: normal;
+	src: url('//lib.baomitu.com/fonts/noto-sans-sc/noto-sans-sc-regular.eot'); /* IE9 Compat Modes */
+	src: local('/assets/font/NotoSansSC-Regular.otf'),local('/assets/font/NotoSansSC-Black.otf'),local('/assets/font/NotoSansSC-Bold.otf'),local('/assets/font/NotoSansSC-Light.otf'),local('/assets/font/NotoSansSC-Medium.otf'),local('/assets/font/NotoSansSC-Thin.otf'),
+	url('//lib.baomitu.com/fonts/noto-sans-sc/noto-sans-sc-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('//lib.baomitu.com/fonts/noto-sans-sc/noto-sans-sc-regular.woff2') format('woff2'), /* Super Modern Browsers */
+	url('//lib.baomitu.com/fonts/noto-sans-sc/noto-sans-sc-regular.woff') format('woff'), /* Modern Browsers */
+	url('//lib.baomitu.com/fonts/noto-sans-sc/noto-sans-sc-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('//lib.baomitu.com/fonts/noto-sans-sc/noto-sans-sc-regular.svg#NotoSans SC') format('svg'); /* Legacy iOS */
+}
+
+/*Nav & Header*/
+nav .menu-item{
+	font-family: 'Almendra SC', serif;
+	font-size:3.5rem;
+}
+
+h1.site-title{
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+.header-titles{
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+/*Featured Image Size*/
+.home .featured-media img{
+	height:40rem;
+	object-fit:cover;
+	object-position:center;
+}
+.archive .featured-media img{
+	height:40rem;
+	object-fit:cover;
+	object-position:center;
+}
+
+@media screen and (max-width: 750px) {.home .featured-media img{height:18rem;}}
+
+@media screen and (max-width: 750px) {.archive .featured-media img{height:18rem;}}
+
+/*Article Title*/
+ h2.entry-title{
+	font-family: 'Special Elite', cursive,'Noto Sans SC', sans-serif;
+	font-size:8vh;
+	text-decoration:none;
+}
+
+ h1.entry-title{
+	font-family: 'Special Elite', cursive,'Noto Sans SC', sans-serif;
+	font-size:8vh;
+	text-decoration:none;
+}
+
+/*Category & Author & Meta*/
+.entry-categories-inner a{
+	font-family:'Limelight', cursive,'Noto Sans SC', sans-serif;
+	font-size:2rem;
+	text-decoration:none;
+}
+
+.archive-title{font-family:'Limelight', cursive,'Noto Sans SC', sans-serif;}
+
+.meta-text{
+	font-family:'Poiret One', cursive,'Noto Sans SC', sans-serif;
+	font-size:2rem;
+}
+
+.meta-text{
+	font-family:'Poiret One', cursive,'Noto Sans SC', sans-serif;
+	font-size:2rem;
+	font-weight:700;
+}
+
+.author-description{
+	font-family:'Special Elite', cursive;
+}
+.author-title{
+	font-family: 'Noto Sans SC', sans-serif;
+	font-weight:600;
+}
+
+.author-description{
+	font-size:1.75rem;
+}
+
+.archive-subtitle p{
+	font-size: 2.5rem;
+}
+
+.post-separator{margin-bottom:3rem;}
+
+/*Content*/
+.entry-content{
+	font-family: 'Abel', sans-serif,'Noto Sans SC', sans-serif;
+	font-weight:600;
+}
+
+/*Reply*/
+.comment-reply-title,.comment-author,.by-post-author{
+	font-family: 'Special Elite', cursive,'Noto Sans SC', sans-serif;
+}
+
+#respond #reply-title{font-size: 5rem;}
+
+@media screen and (max-width: 750px) {#respond #reply-title{font-size: 3.25rem;}}
+
+.comments-header .comment-reply-title{font-size: 5rem;}
+
+@media screen and (max-width: 750px) {.comments-header .comment-reply-title{font-size: 3.25rem;}}
+
+.comment-notes{color: #808080;}
+
+ #comment, #author, #email, #url{border-color: #808080;}
+
+.comment-content p{
+	font-size: 2.2rem;
+	font-family:'Abel', sans-serif,'Noto Sans SC', sans-serif;
+}
+#comment{
+	font-size: 1.75rem;
+}
+
+.title-inner{font-family: 'Special Elite', cursive,'Noto Sans SC', sans-serif;}
+
+/* Footer Style*/
+.footer-socialIcon{
+	height: 6vh;
+	width: 6vh;
+	margin: 0.5vh;
+}
+
+.footer-contactIcon{
+	width: 2rem;
+	height:2rem;
+}
+
+.footer-contact-item{
+	padding:1vh 0 1vh 0;
+}
+
+.footer-email{
+	 font-family:'Limelight', cursive,'Noto Sans SC', sans-serif;
+	font-size: 1.64rem;
+}
+
+.footer-contact{
+ font-family:'Limelight', cursive,'Noto Sans SC', sans-serif;
+	font-size: 2.5rem;
+}
+
+/*Not Found*/
+.intro-text p{
+		font-family:'Poiret One', cursive,'Noto Sans SC', sans-serif;
+}
+
+/*Content Font Size*/
+/*P Element*/
+.entry-content p{font-size:2.25rem;}
+.entry-content .has-normal-font-size{font-size:2.25rem;}
+.entry-content .has-small-font-size{font-size:1.75rem;}
+.entry-content .has-large-font-size{font-size:2.75rem;}
+.entry-content .has-larger-font-size{font-size:4rem;}
+
+@media screen and (max-width: 750px) {.entry-content p{font-size:1.75rem;}}
+@media screen and (max-width: 750px) {.entry-content .has-normal-font-size{font-size:1.75rem;}}
+@media screen and (max-width: 750px) {.entry-content .has-small-font-size{font-size:1.25rem;}}
+@media screen and (max-width: 750px) {.entry-content .has-large-font-size{font-size:2.25rem;}}
+@media screen and (max-width: 750px) {.entry-content .has-larger-font-size{font-size:3rem;}}
+
+/*H Element*/
+.entry-content h1{font-size:6rem;}
+.entry-content h2{font-size:5.25rem;}
+.entry-content h3{font-size:4.5rem;}
+.entry-content h4{font-size:3.75rem;}
+.entry-content h5{font-size:3.5rem;}
+.entry-content h6{font-size:3.25rem;}
+
+@media screen and (max-width: 750px) {.entry-content h1{font-size:4.25rem;}}
+@media screen and (max-width: 750px) {.entry-content h2{font-size:3.75rem;}}
+@media screen and (max-width: 750px) {.entry-content h3{font-size:3.25rem;}}
+@media screen and (max-width: 750px) {.entry-content h4{font-size:3rem;}}
+@media screen and (max-width: 750px) {.entry-content h5{font-size:2.75rem;}}
+@media screen and (max-width: 750px) {.entry-content h6{font-size:2.5rem;}}
+
+/*Home Title*/
+.home h1{font-size:2.25rem;}
+@media screen and (max-width: 750px) {.home h1{font-size:1.75rem;}}
+.home h2{font-size:2.25rem;}
+@media screen and (max-width: 750px) {.home h2{font-size:1.75rem;}}
+.home h3{font-size:2.25rem;}
+@media screen and (max-width: 750px) {.home h3{font-size:1.75rem;}}
+.home h4{font-size:2.25rem;}
+@media screen and (max-width: 750px) {.home h4{font-size:1.75rem;}}
+.archive h1{font-size:2.25rem;}
+@media screen and (max-width: 750px) {.archive h1{font-size:1.75rem;}}
+.archive h2{font-size:2.25rem;}
+@media screen and (max-width: 750px) {.archive h2{font-size:1.75rem;}}
+.archive h3{font-size:2.25rem;}
+@media screen and (max-width: 750px) {.archive h3{font-size:1.75rem;}}
+.archive h4{font-size:2.25rem;}
+@media screen and (max-width: 750px) {.archive h4{font-size:1.75rem;}}
+
+/*Cover Full Width Text*/
+body.template-cover .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide),
+body.template-cover [class*="__inner-container"] > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+    max-width: 100rem;
+}
+@media (min-width: 700px) {
+    body.template-cover .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+        width: calc(100% - 8rem);
+    }
+}
+/*Default Full Width Text*/
+body.post-template-default .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide),
+body.post-template-default [class*="__inner-container"] > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+    max-width: 100rem;
+}
+@media (min-width: 700px) {
+    body.post-template-default .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+        width: calc(100% - 8rem);
+    }
+}

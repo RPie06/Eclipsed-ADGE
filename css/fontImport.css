@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+/*Fonts Import*/
+/*Google*/
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Julius+Sans+One&family=Limelight&family=Megrim&family=Montserrat+Subrayada:wght@700&family=Noto+Sans+SC&family=Poiret+One&family=Special+Elite&family=Almendra+SC&display=swap');
+/*
+font-family: 'Abel', sans-serif;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Limelight', cursive;
+font-family: 'Megrim', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Montserrat Subrayada', sans-serif;
+font-family: 'Special Elite', cursive;
+font-family: 'Noto Sans SC', sans-serif;
+font-family: 'Almendra SC', serif;
+*/
+
+@font-face {
+    font-family: 'Almendra SC';
+    font-style: normal;
+    font-weight: normal;
+    src: url('//lib.baomitu.com/fonts/almendra-sc/almendra-sc-regular.eot'); /* IE9 Compat Modes */
+    src: local('/assets/font/AlmendraSC-Regular.ttf'),
+    url('//lib.baomitu.com/fonts/almendra-sc/almendra-sc-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('//lib.baomitu.com/fonts/almendra-sc/almendra-sc-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('//lib.baomitu.com/fonts/almendra-sc/almendra-sc-regular.woff') format('woff'), /* Modern Browsers */
+    url('//lib.baomitu.com/fonts/almendra-sc/almendra-sc-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('//lib.baomitu.com/fonts/almendra-sc/almendra-sc-regular.svg#AlmendraSC') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Special Elite';
+    font-style: normal;
+    font-weight: normal;
+    src: url('//lib.baomitu.com/fonts/special-elite/special-elite-regular.eot'); /* IE9 Compat Modes */
+    src: local('/assets/font/SpecialElite-Regular.ttf'),
+    url('//lib.baomitu.com/fonts/special-elite/special-elite-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('//lib.baomitu.com/fonts/special-elite/special-elite-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('//lib.baomitu.com/fonts/special-elite/special-elite-regular.woff') format('woff'), /* Modern Browsers */
+    url('//lib.baomitu.com/fonts/special-elite/special-elite-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('//lib.baomitu.com/fonts/special-elite/special-elite-regular.svg#SpecialElite') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: normal;
+    src: url('//lib.baomitu.com/fonts/poiret-one/poiret-one-regular.eot'); /* IE9 Compat Modes */
+    src: local('/assets/font/PoiretOne-Regular.ttf'),
+    url('//lib.baomitu.com/fonts/poiret-one/poiret-one-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('//lib.baomitu.com/fonts/poiret-one/poiret-one-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('//lib.baomitu.com/fonts/poiret-one/poiret-one-regular.woff') format('woff'), /* Modern Browsers */
+    url('//lib.baomitu.com/fonts/poiret-one/poiret-one-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('//lib.baomitu.com/fonts/poiret-one/poiret-one-regular.svg#PoiretOne') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: normal;
+    src: url('//lib.baomitu.com/fonts/abel/abel-regular.eot'); /* IE9 Compat Modes */
+    src: local('/assets/font/Abel-Regular.ttf'),
+    url('//lib.baomitu.com/fonts/abel/abel-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('//lib.baomitu.com/fonts/abel/abel-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('//lib.baomitu.com/fonts/abel/abel-regular.woff') format('woff'), /* Modern Browsers */
+    url('//lib.baomitu.com/fonts/abel/abel-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('//lib.baomitu.com/fonts/abel/abel-regular.svg#Abel') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'Julius Sans One';
+    font-style: normal;
+    font-weight: normal;
+    src: url('//lib.baomitu.com/fonts/julius-sans-one/julius-sans-one-regular.eot'); /* IE9 Compat Modes */
+    src: local('/assets/font/JuliusSansOne-Regular.ttf'),
+    url('//lib.baomitu.com/fonts/julius-sans-one/julius-sans-one-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('//lib.baomitu.com/fonts/julius-sans-one/julius-sans-one-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('//lib.baomitu.com/fonts/julius-sans-one/julius-sans-one-regular.woff') format('woff'), /* Modern Browsers */
+    url('//lib.baomitu.com/fonts/julius-sans-one/julius-sans-one-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('//lib.baomitu.com/fonts/julius-sans-one/julius-sans-one-regular.svg#JuliusSans One') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'Montserrat Subrayada';
+    font-style: normal;
+    font-weight: normal;
+    src: url('//lib.baomitu.com/fonts/montserrat-subrayada/montserrat-subrayada-regular.eot'); /* IE9 Compat Modes */
+    src: local('/assets/font/MontserratSubrayada-Regular.ttf'),local('/assets/font/MontserratSubrayada-Bold.ttf'),
+    url('//lib.baomitu.com/fonts/montserrat-subrayada/montserrat-subrayada-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('//lib.baomitu.com/fonts/montserrat-subrayada/montserrat-subrayada-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('//lib.baomitu.com/fonts/montserrat-subrayada/montserrat-subrayada-regular.woff') format('woff'), /* Modern Browsers */
+    url('//lib.baomitu.com/fonts/montserrat-subrayada/montserrat-subrayada-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('//lib.baomitu.com/fonts/montserrat-subrayada/montserrat-subrayada-regular.svg#MontserratSubrayada') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'Limelight';
+    font-style: normal;
+    font-weight: normal;
+    src: url('//lib.baomitu.com/fonts/limelight/limelight-regular.eot'); /* IE9 Compat Modes */
+    src: local('/assets/font/Limelight-Regular.ttf'),
+    url('//lib.baomitu.com/fonts/limelight/limelight-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('//lib.baomitu.com/fonts/limelight/limelight-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('//lib.baomitu.com/fonts/limelight/limelight-regular.woff') format('woff'), /* Modern Browsers */
+    url('//lib.baomitu.com/fonts/limelight/limelight-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('//lib.baomitu.com/fonts/limelight/limelight-regular.svg#Limelight') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'Megrim';
+    font-style: normal;
+    font-weight: normal;
+    src: url('//lib.baomitu.com/fonts/megrim/megrim-regular.eot'); /* IE9 Compat Modes */
+    src: local('/assets/font/Megrim-Regular.ttf'),
+    url('//lib.baomitu.com/fonts/megrim/megrim-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('//lib.baomitu.com/fonts/megrim/megrim-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('//lib.baomitu.com/fonts/megrim/megrim-regular.woff') format('woff'), /* Modern Browsers */
+    url('//lib.baomitu.com/fonts/megrim/megrim-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('//lib.baomitu.com/fonts/megrim/megrim-regular.svg#Megrim') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'Noto Sans SC';
+    font-style: normal;
+    font-weight: normal;
+    src: url('//lib.baomitu.com/fonts/noto-sans-sc/noto-sans-sc-regular.eot'); /* IE9 Compat Modes */
+    src: local('/assets/font/NotoSansSC-Regular.otf'),local('/assets/font/NotoSansSC-Black.otf'),local('/assets/font/NotoSansSC-Bold.otf'),local('/assets/font/NotoSansSC-Light.otf'),local('/assets/font/NotoSansSC-Medium.otf'),local('/assets/font/NotoSansSC-Thin.otf'),
+    url('//lib.baomitu.com/fonts/noto-sans-sc/noto-sans-sc-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('//lib.baomitu.com/fonts/noto-sans-sc/noto-sans-sc-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('//lib.baomitu.com/fonts/noto-sans-sc/noto-sans-sc-regular.woff') format('woff'), /* Modern Browsers */
+    url('//lib.baomitu.com/fonts/noto-sans-sc/noto-sans-sc-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('//lib.baomitu.com/fonts/noto-sans-sc/noto-sans-sc-regular.svg#NotoSans SC') format('svg'); /* Legacy iOS */
+}

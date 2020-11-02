@@ -1,0 +1,57 @@
+@charset "utf-8";
+@import "custom.css";
+@import "fontImport.css";
+/* CSS Document */
+
+/*Photo Page*/
+@media screen and (max-width: 800px) {.photo-title{font-size: 2.2rem;} .carousel-control-next, .carousel-control-prev{display: none;}}
+
+.photo-pageCoverImage{background-image: url("/assets/pageImage/photoPageBackground.jpg");}
+
+.carousel-control-next, .carousel-control-prev{opacity: 0;}
+
+.gallery-item{
+    height: 20rem;
+    width: auto;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+.gallery{padding: 1rem 1rem 0 1rem;}
+
+.gallery-intro-text{
+    color:white;
+    font-size:1.5rem;
+    font-family: Var(--textIntroFont);
+    font-weight: 800;
+}
+
+.gallery-intro-box{text-align: center;}
+
+.display-image{
+    -webkit-transition: all .3s ease; /* Safari and Chrome */
+    -moz-transition: all .3s ease; /* Firefox */
+    -o-transition: all .3s ease; /* IE 9 */
+    -ms-transition: all .3s ease; /* Opera */
+    transition: all .3s ease;
+    overflow:hidden;
+
+    padding-top: 1rem;
+    display:flex;
+    object-position: center;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 1099px) {
+	.gallery-item:hover{filter: grayscale(80%) brightness(65%) saturate(120%) blur(2px) sepia(20%);}
+	.display-image:hover {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform:translateZ(0) scale(1.015); /* Safari and Chrome */
+    -moz-transform:scale(1.015); /* Firefox */
+    -ms-transform:scale(1.015); /* IE 9 */
+    -o-transform:translatZ(0) scale(1.015); /* Opera */
+    transform:translatZ(0) scale(1.015);
+
+    filter: sepia(60%) contrast(130%);
+}}

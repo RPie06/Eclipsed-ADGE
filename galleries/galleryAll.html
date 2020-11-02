@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/assets/logo/pt_light.png">
+<title>Gallery of All - Eclipsed ADGE</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
+<link href="/css/photoStyle.css" rel="stylesheet">
+<script src="/js/JQuery.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/css/justifiedGallery.min.css">
+<script src="/js/jquery.justifiedGallery.min.js"></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+
+<body>
+<!-- Navigation Bar -->
+	<div id="navbar"></div>
+    <!-- Header -->
+    <header>
+    <div class="photo-pageCoverImage subMainPageHeader"></div>
+    <div class="container-fluid h-100"><h1 class="subMainPageTitle text-left">All Photos</h1></div>
+    </header>
+    
+	<main class="container-fluid">
+
+         <div id="gallery"><script src="GalleryAll.js"></script></div>
+
+    </main>
+	
+	  <!-- Footer -->
+	<div id="footer"></div>
+	<!-- Additional Scripts -->
+<script>$(document).on('click', '[data-toggle="lightbox"]', function(event) {event.preventDefault();$(this).ekkoLightbox();}); </script>
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+    <script type="text/babel" src="/js/navbarNfooter.js"></script>
+</body>
+</html>
+
+<!-- Templates -->
+<!--    <a href="../assets/photo/home/photo.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="display-image">
+    <img src="../assets/photo/home/photo.jpg" class="img-fluid" alt="..."></a>-->

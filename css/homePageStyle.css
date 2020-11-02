@@ -1,0 +1,91 @@
+@charset "utf-8";
+@import "custom.css";
+@import "fontImport.css";
+/* CSS Document */
+
+/*Full Page Intro*/
+.header-background{
+	background-image: url("/assets/pageImage/homeCover.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+.rgb-maskCover{
+  background: -moz-linear-gradient(45deg, rgba(253,253,253,0.50), rgba(13,144,171,0.55) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(253,253,253,0.50), rgba(13,144,171,0.55) 100%);
+  background: -webkit-gradient(linear, 45deg, from(rgba(253,253,253,0.50)), to(rgba(13,144,171,0.55)));
+  background: -o-linear-gradient(45deg, rgba(253,253,253,0.50), rgba(62,205,241,0.55) 100%);
+  background: linear-gradient(to 45deg, rgba(253,253,253,0.50), rgba(13,144,171,0.55) 100%);
+  background-attachment: fixed;
+}
+.coverpage-title{
+	font-family: Var(--siteTitleFont);
+	font-size: 10rem;
+	text-align:justify;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {  .coverpage-title{font-size: 5rem;}  }
+
+.coverpage-intro{
+	font-size: 2rem;
+	padding-top: 7vh;
+	font-family: Var(--textIntroFont);
+	font-weight: 1000;
+}
+.fullpage-intro {
+  height: 100vh;
+  min-height: 500px;
+}
+
+.content-sectionBox{
+	padding-top: 5vw; 
+	padding-bottom: 5vw;
+}
+.content-item-backTitle {
+	color: rgba(125,125,125,0.60);
+	font-family: Var(--backTitleFont);
+	font-size: 15vw;
+	position: absolute;
+	margin-top: -7vw;
+	line-height: 1;
+}
+
+.content-item-frontTitle {
+	color: rgba(208,208,208,1.00);
+	font-family: Var(--frontTitleFont);
+	position:absolute;
+	font-size: 10vw;
+	line-height:1;
+}
+#introFrontTitle{bottom:9.5rem;}
+#articleFrontTitle{bottom:11rem;}
+#photographyFrontTitle{bottom:9.5rem;}
+
+.content-intro{
+    font-size: 1.5rem;
+    color: rgba(255,255,255,1.00);
+	font-family: Var(--textIntroFont);
+    font-weight: bold;
+}
+
+/*Audio*/
+.musicIcon{
+	width: 2.75rem;
+	height: 2.75rem;
+	position: absolute;
+	top:5rem;
+	right:1vw;
+	animation: rotation 5s infinite linear;
+}
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(359deg);
+	}
+}
+@media only screen and (max-width: 1099px) {.musicIcon{display: none;}.bgmPlayer{}}

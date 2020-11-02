@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+/*Global Variables*/
+:root{
+	/*Color*/
+	--mainColor: #1a1a1a;
+	--subColor: rgba(208,208,208,1.00);
+	--pageTitleColor:rgba(208,208,208,1.00);
+	/*Font*/
+	--navItemFont:'Almendra SC', serif;
+	--contentFont:'Abel', sans-serif,'Noto Sans SC', sans-serif;
+	--pageTitleFont:'Special Elite', cursive, 'Noto Sans SC', sans-serif;
+	--headingFont:'Special Elite', cursive, 'Noto Sans SC', sans-serif;
+	--textIntroFont:'Poiret One', cursive;
+	--copyFont: 'Julius Sans One', sans-serif;
+	--siteTitleFont:'Julius Sans One', sans-serif;
+	--backTitleFont:'Megrim', cursive;
+	--frontTitleFont:'Limelight', cursive;
+	/*Icons*/
+	--socialIconSize:2.5rem;
+	--contactIconSize:1rem;
+}
+/* Tag Styles */
+html{height:100%;}
+body{background: Var(--mainColor);height: 100%;}
+span{display: block;}
+/*Scrollbar*/
+::-webkit-scrollbar {width: 5px;}
+::-webkit-scrollbar-track {display: none;}
+::-webkit-scrollbar-thumb {background: Var(--subColor)}
+::-webkit-scrollbar-thumb:hover {background: #909090;}
+
+/*Navigation Bar*/
+.navbar {background-color: rgba(0,0,0,0.65);}
+.navbar-brand{font-size: 1rem;}
+.navbar-logo{
+	height: 3rem;
+	width: 3rem;
+}
+.nav-item{
+	color:#808080;
+	font-family: Var(--navItemFont);
+	font-size: 1.75rem
+}
+.navbar-toggler{border: none;}
+
+/*Content*/
+/*Page Header and Title*/
+.subMainPageHeader{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:center center;
+	background-attachment: fixed;
+	height: 12rem;
+	filter: blur(10px);
+	z-index: -1;
+}
+
+.subMainPageTitle{
+	font-family: Var(--pageTitleFont);
+	font-size: 3rem;
+	color: Var(--pageTitleColor);
+	overflow: hidden;
+	position: absolute;
+	top: 6rem;
+}
+
+.bottom-textIntro{
+    font-size: 1.25rem;
+	font-family: Var(--textIntroFont);
+    color: rgba(255,255,255,1.00);
+    font-weight: bold;
+}
+
+/* footer */
+.footer-socialIcon{
+	height: Var(--socialIconSize);
+	width: Var(--socialIconSize);
+	margin: 1vh;
+}
+
+.footer-socialIconStyle{
+	display: flex;
+	align-items: center;
+}
+
+.footer-contactIcon{
+	width: Var(--contactIconSize);
+	height: Var(--contactIconSize);
+	margin: 1vh;
+}
+
+.my-footer {
+    background-color: Var(--subColor);
+    text-align: center;
+	position: relative;
+}
+
+.footer-contact{
+    font-weight: 900;
+	color: black;
+	font-family: Var(--contentFont);
+	font-size: 1.1rem;
+}
+
+.footer-copyright{
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    bottom:0;
+    font-weight: 900;
+	font-family: Var(--copyFont);
+}
