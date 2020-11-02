@@ -11,7 +11,6 @@ I first like to appreciate your interest about my website and hope you like it!
 
 This website is established because of my interest about web design. I tried several frameworks and open-source APIs,which I will explain later. Here, I will post some of my photography works and share some of my thoughts in the form of article posts.
 Well, I just implemented several style code for Article section. And for that I use Wordpress, since it's a very powerful CMS.
-~~Ture reason is that it is included in my hosting plan, so why don't just use it.~~
 ### Frameworks and APIs
 + Bootstrap 4.
 + React.js
