@@ -14,7 +14,7 @@ Well, I just implemented several style code for Article section. And for that I 
 ### Frameworks and Libraries
 + Bootstrap 4
 + React.js
-+ Jquery
++ jQuery
 * Justified Gallery
 * Bootstrap Lightbox
 * Wordpress
